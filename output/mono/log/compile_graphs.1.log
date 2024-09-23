@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split4/1/text|" "ark:|gzip -c >exp/mono/fsts.1.gz" 
+# Started at Sat Aug 31 07:41:49 UTC 2024
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split4/1/text|' 'ark:|gzip -c >exp/mono/fsts.1.gz' 
+sym2int.pl: replacing WELL with 2
+sym2int.pl: replacing MARILLA with 2
+sym2int.pl: replacing I'LL with 2
+sym2int.pl: replacing JUST with 2
+sym2int.pl: replacing TELL with 2
+sym2int.pl: replacing YOU with 2
+sym2int.pl: replacing PLAIN with 2
+sym2int.pl: replacing THAT with 2
+sym2int.pl: replacing I with 2
+sym2int.pl: replacing THINK with 2
+sym2int.pl: replacing YOU'RE with 2
+sym2int.pl: replacing DOING with 2
+sym2int.pl: replacing A with 2
+sym2int.pl: replacing MIGHTY with 2
+sym2int.pl: replacing FOOLISH with 2
+sym2int.pl: replacing THING with 2
+sym2int.pl: replacing A with 2
+sym2int.pl: replacing RISKY with 2
+sym2int.pl: replacing THING with 2
+sym2int.pl: replacing THAT'S with 2
+sym2int.pl: not warning for OOVs any more times
+** Replaced 4817 instances of OOVs with 2
+LOG (compile-train-graphs[5.5.1139~1-67548]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 148 graphs, failed for 0
+# Accounting: time=3 threads=1
+# Ended (code 0) at Sat Aug 31 07:41:52 UTC 2024, elapsed time 3 seconds

@@ -1,0 +1,20 @@
+# gunzip -c exp/mono/phone_stats.*.gz | steps/diagnostic/analyze_phone_length_stats.py data/lang 
+# Started at Sat Aug 31 07:50:51 UTC 2024
+#
+At utterance begin, SIL accounts for 99.3% of phone occurrences, with duration (median, mean, 95-percentile) is (23,25.7,50) frames.
+At utterance begin, nonsilence accounts for 0.7% of phone occurrences, with duration (median, mean, 95-percentile) is (11,11.2,12) frames.
+At utterance begin, K_B accounts for 0.7% of phone occurrences, with duration (median, mean, 95-percentile) is (11,11.2,12) frames.
+At utterance end, SIL accounts for 99.5% of phone occurrences, with duration (median, mean, 95-percentile) is (38,60.9,190) frames.
+At utterance end, nonsilence accounts for 0.5% of phone occurrences, with duration (median, mean, 95-percentile) is (3,10.7,9) frames.
+At utterance end, Z_E accounts for 0.5% of phone occurrences, with duration (median, mean, 95-percentile) is (3,10.7,9) frames.
+Overall, nonsilence accounts for 94.5% of phone occurrences, with duration (median, mean, 95-percentile) is (7,9.4,26) frames.
+Overall, Z_E accounts for 31.5% of phone occurrences, with duration (median, mean, 95-percentile) is (11,14.1,35) frames.
+Overall, AH0_I accounts for 31.5% of phone occurrences, with duration (median, mean, 95-percentile) is (5,6.6,14) frames.
+Overall, K_B accounts for 31.5% of phone occurrences, with duration (median, mean, 95-percentile) is (6,7.5,18) frames.
+Overall, SIL accounts for 5.5% of phone occurrences, with duration (median, mean, 95-percentile) is (37,47.9,121) frames.
+The optional-silence phone SIL occupies 22.8% of frames overall 
+Limiting the stats to the 93.2% of frames not covered by an utterance-[begin/end] phone, optional-silence SIL occupies 17.2% of frames.
+Assuming 100 frames per second, the alignments represent 2.0 hours of data, or 1.6 hours if SIL frames are excluded.
+Utterance-internal optional-silences SIL comprise 3.8% of utterance-internal phones, with duration (median, mean, 95-percentile) = (42,50.2,115)
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Aug 31 07:50:51 UTC 2024, elapsed time 0 seconds
