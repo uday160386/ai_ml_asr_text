@@ -1,9 +1,9 @@
 import sys, os
 import shutil
 
-PROJECT_HOME = "/home/kali/Documents/ai_ml/kaldi/egs/ex_kaldi_voice_text/s5"
-FLAC_HOME_FILES = PROJECT_HOME+"/audio_files/train_clean_100/"
-WAV_FILES_HOME = PROJECT_HOME+"/audio_files/train/wav"
+PROJECT_HOME = "/home/uday/Documents/workspace/kaldi/egs/ai_ml_asr_text"
+FLAC_HOME_FILES = PROJECT_HOME+"/audio_files/test-clean/"
+WAV_FILES_HOME = PROJECT_HOME+"/audio_files/test/wav"
 
 for path, subdirs, files in os.walk(FLAC_HOME_FILES):
     for name in files:

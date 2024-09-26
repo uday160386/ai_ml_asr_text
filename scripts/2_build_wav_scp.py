@@ -1,6 +1,6 @@
 import sys, os
 
-PROJECT_HOME = "/home/kali/Documents/ai_ml/kaldi/egs/ex_kaldi_voice_text/s5"
+PROJECT_HOME = "/home/uday/Documents/workspace/kaldi/egs/ai_ml_asr_text"
 PROJECT_DATA_HOME=PROJECT_HOME+"/data"
 mod_root = PROJECT_HOME+"/audio_files/train/wav"
 wav_scp_file_path = PROJECT_DATA_HOME+"/train/wav.scp"
